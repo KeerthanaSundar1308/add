@@ -1,0 +1,51 @@
+.itemcontainer{
+    width:300px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0,0.2);
+    margin:20px;
+    overflow: hidden;
+    font-family: Polysans,sans-serif;
+}
+
+.image{
+    max-width: 100%;
+    height: auto;
+}
+
+.foodcontent{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+}
+
+.foodname{
+    font-size: 13px;
+    font-weight: 600;
+    color:rgb(65, 42, 233);
+}
+
+.button{
+    font-family:Polysans,sans-serif;
+    border:none;
+    cursor: pointer;
+    color:rgb(49, 189, 189);
+    padding: 4px;
+    border-radius: 10px;
+    
+}
+.button:hover{
+    background-color: rgb(49, 189, 189);
+    color: white;
+    transition: 0.2s;
+    padding:10px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+
+.buttoncontainer{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
